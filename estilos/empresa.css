@@ -1,0 +1,49 @@
+@charset "utf-8";
+/*.mainInfo {
+	width:810px;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:50px;
+}*/
+body{
+	margin:0px;
+	padding:0px;
+}
+.izqFino {
+	margin:0px;
+	float:left;
+	padding:0px;
+}
+.derAncho {
+	float:right;
+	width:450px;
+	height:320px;
+	margin:0px;
+	padding:0px;
+	padding-top:10px;
+	background-color:#E3E4E5;
+	text-align:left;
+}
+.derAncho .titNota {
+	padding-left:20px;
+}
+.derAncho .cuerpoSeccion {
+	margin-top:5px;
+	font-size:11px;
+	color:#707173;
+	height:250px;
+	width:425px;
+	overflow:auto;
+	text-align:justify;
+	margin-bottom:10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+.cuerpoSeccion b{
+	color:#F18E00;
+}
+.cuerpoSeccion strong{
+	color:#F18E00;
+}

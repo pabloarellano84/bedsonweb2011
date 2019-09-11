@@ -1,0 +1,65 @@
+@charset "utf-8";
+body {
+	margin:0px;
+	padding:0px;
+	display:inline;
+}
+.izqFino {
+	margin: 0px;
+	float: left;
+	width: 360px;
+	height:330px;
+	padding: 0px;
+	padding-top:10px;
+	text-align:left;
+}
+.derAncho {
+	height:320px;
+	width:451px;
+	overflow:hidden;
+	margin:0px;
+	padding: 0px;
+	padding-top:10px;
+	background-color:#E3E4E5;
+	text-align:left;
+	float:right;
+}
+.titNota {
+	height:36px;
+	font-size: 15px;
+	font-weight:bold;
+	color: #F5F5F5;
+	background-image: url(../img/btnTit.png);
+	background-repeat: repeat-x;
+	text-align: left;
+	float: left;
+	margin-left:7px;
+	padding-left:5px;
+	padding-top:8px;
+}
+.derAncho .titTxt {
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bold;
+	color: #F18E00;
+}
+.derAncho .txt {
+	font-size: 11px;
+	text-align: justify;
+	margin-top: 10px;
+	height: 210px;
+	overflow: auto;
+	padding: 5px;
+	color:#646567;
+	width: auto;
+}
+.derAncho .colIzq {
+	float: left;
+	width: 200px;
+	margin-right: 5px;
+}
+.derAncho .colDer {
+	float: right;
+	width: 200px;
+	margin-left: 5px;
+}

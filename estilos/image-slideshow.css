@@ -1,0 +1,51 @@
+#dhtmlgoodies_slideshow{
+	width:800px;	/* Total width of slideshow */
+}
+#galleryContainer{
+	height:132px;	/* Height of the images + 2 */
+	position:relative;
+	overflow:hidden;
+	padding:1px;
+	
+	/* CSS HACK */
+	height: 134px;	/* IE 5.x - Added 2 pixels for border left and right */
+	height/* */:/**/132px;	/* Other browsers */
+	height: /**/132px;
+}
+#arrow_left{
+	position:absolute;
+	left:0px;
+	z-index:10;
+	background-color: #FFF;
+	padding:1px;
+}
+#arrow_right{
+	position:absolute;
+	right:0px;
+	z-index:10;
+	background-color: #FFF;
+	padding:1px;		
+}
+#theImages{
+	position:absolute;
+	height:130px;
+	left:40px;
+	width:100000px;
+	padding: 0px;
+}
+#theImages #slideEnd{
+	float:left;
+}
+#theImages img{
+	float:left;
+	padding:1px;
+	filter:alpha(opacity=50);
+	opacity:.5;
+	-moz-opacity:0.5;
+	cursor:pointer;
+	border:0px;
+}
+
+#theImages .imageCaption{
+	display:none;
+}

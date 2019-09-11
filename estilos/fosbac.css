@@ -1,0 +1,31 @@
+@charset "utf-8";
+.tit {
+	width:125px;
+	font-size: 16px;
+	color: #CC0623;
+	margin-bottom:10px;
+}
+.parrafo {
+	text-align: justify;
+	font-size: 12px;
+	color: #333;
+	margin-bottom:10px;
+}
+.letraCapital {
+	font-size: 20px;
+	font-weight: bold;
+	color: #CC0623;
+}
+.subtitulo {
+	font-size: 14px;
+	font-weight: bold;
+	color: #CC0623;
+}
+.col_izq {
+	background-image: url(../img/fndFosbac.png);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+}
+.titNota {
+	width:90%;
+}

@@ -1,0 +1,135 @@
+@charset "utf-8";
+body {
+	margin:0px;
+	padding:0px;
+}
+.izqFino {
+	margin: 0px;
+	float: left;
+	width: 350px;
+	height: 330px;
+	padding: 0px;
+	padding-top:8px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+}
+.derAncho {
+	float: right;
+	width: 450px;
+	padding: 0px;
+	text-align:left;
+	overflow:hidden;
+}
+.titSeccion {
+	height:36px;
+	font-size: 15px;
+	font-weight:bold;
+	color: #F5F5F5;
+	background-image: url(../img/btnTit.png);
+	background-repeat: repeat-x;
+	text-align: left;
+	float: left;
+	padding-left:5px;
+	padding-top:8px;
+}
+.derAncho .cuerpoSeccion {
+	margin-top:10px;
+	font-size:11px;
+	text-align:left;
+	color: #707173;
+	padding: 5px;
+	height: 260px;
+}
+.derAncho .cuerpoSeccion p {
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.izqFino .global {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.izqFino .thumbSectores {
+	display: inline;
+}
+.izqFino .thumbSectores .sector {
+	padding: 0px;
+	float: left;
+	width: 166px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.izqFino .thumbSectores .pais {
+	padding: 0px;
+	float: right;
+	width: 165px;
+	margin-right: 5px;
+	margin-left: 4px;
+}
+.cuerpoSeccion .titPais {
+	font-weight: bold;
+}
+.cuerpoSeccion .titDist {
+	font-weight: bold;
+	color: #F90;
+}
+.derAncho .col_izq {
+	padding-top:10px;
+	float: left;
+	width: 210px;
+	background-color:#E3E4E5;
+	height: 330px;
+}
+.derAncho .col_der {
+	float: right;
+	width: 215px;
+	padding-top:10px;
+	background-color:#E3E4E5;
+	height: 330px;
+}
+.derAncho a {
+	text-decoration:none;
+	color:#707173;
+}
+.derAncho .col_izq .cuerpoSeccion #argentina {
+	background-image: url(../img/arrowPrevPage_on.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: #CCC;
+}
+.globalBig {
+	z-index: 10;
+	left: 0px;
+	top: 0px;
+}
+.infoPais {
+	z-index: 20;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width:200px;
+	height:60px;
+	background-color:#E3E4E5;
+}
+.infoPais div {
+	color:#707173;
+	font-size:11px;
+	text-align:left;
+}
+.infoPais div div {
+	padding-left:10px;
+}
+.infoPais .titPais {
+	background-image:url(../img/arrowPrevPage_on.jpg);
+	background-position:right;
+	background-repeat:no-repeat;
+	background-color:#CCC;
+	font-weight:bold;
+}
+.infoPais .titDist {
+	font-weight: bold;
+	color: #F90;
+}
+.titM a:hover {
+	text-decoration:underline;
+}

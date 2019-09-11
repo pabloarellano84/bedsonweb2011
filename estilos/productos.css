@@ -1,0 +1,130 @@
+@charset "utf-8";
+body {
+	margin:0px;
+	padding:0px;
+}
+.col_izq {
+	width: 347px;
+	float:left;
+	background-color:#E3E4E6;
+	padding:0px;
+	padding-top:10px;
+	margin:0px;
+	overflow: hidden;
+	height: 320px;
+}
+.col_izq .div1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	color: #333;
+	text-align:justify;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	background-color: #F0F0F0;
+}
+.col_der {
+	width: 447px;
+	height: 320px;
+	float:right;
+	margin:0px;
+	padding:0px;
+	padding-top:10px;
+	background-color:#E3E4E5;
+	text-align:left;
+}
+.col_der p {
+	margin:0px;
+	margin-top:5px;
+	padding:0px;
+}
+.col_der .div2 {
+	width:210px;
+	padding: 5px;
+	text-align:left;
+	float:right;
+}
+.col_izq .divTildes {
+	background-color: #ECECED;
+	margin-top: 20px;
+}
+.col_izq .divTildes div {
+	color: #666;
+	font-size: 13px;
+	text-align: left;
+	padding-left: 5px;
+	margin-top: 5px;
+	padding-bottom: 5px;
+}
+.derAncho {
+	background-image: url(../img/mainBG40.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 330px;
+	width: 49%;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	text-align: left;
+	overflow:hidden;
+}
+.izqFino {
+	float:left;
+	background-image: url(../img/mainFOSBAC.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 330px;
+	width: 49%;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	text-align: left;
+	margin:0px;
+	overflow:hidden;
+}
+.izqFino .titNota{
+	width:90%;
+}
+.derAncho .titNota{
+	width:90%;
+}
+.btnTit {
+	text-align: left;
+	padding: 0px;
+	width: 200px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.col_izq img {
+	margin: 0px;
+	padding: 0px;
+}
+.frase {
+	font-size: 16px;
+	font-weight: bold;
+	color: #7E7E7E;
+	padding: 0px;
+	width: 300px;
+	margin-top: 20px;
+	text-align: left;
+	padding-left:10px;
+}
+.col_der .infoProd {
+	font-size:11px;
+	color:#707173;
+	height:300px;
+	overflow:auto;
+	text-align:justify;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left:5px;
+	margin-left: 5px;
+	margin-right:5px;
+	background-color: #ECECED;
+}

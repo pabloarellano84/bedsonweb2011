@@ -1,0 +1,132 @@
+@charset "utf-8";
+body {
+	margin:0px;
+	padding:0px;
+}
+.izqFino {
+	float: left;
+	margin: 0px;
+	margin-right: 10px;
+	width: 350px;
+	height: 260px;
+	padding: 0px;
+	text-align: left;
+}
+.derAncho {
+	margin:0px;
+	padding:0px;
+	float:right;
+	width: 442px;
+	overflow: hidden;
+}
+.izqFino .noticias {
+	background-color: #CFD1D2;
+	padding-top: 10px;
+	padding-left: 0px;
+	margin: 0px;
+	height: 260px; /*ORIGINAL */
+/*	height: 120px; BANNER */
+	overflow: hidden;
+}
+.izqFino .noticias .copete {
+	width:330px;
+	float:left;
+	margin-bottom:10px;
+	padding-left:10px;
+	padding-right:5px;
+	margin-right:5px;
+}
+.izqFino .noticias .copete .fecha {
+	font-size: 11px;
+	font-weight: bold;
+	color:#797a78;
+}
+.izqFino .noticias .copete .titCopete {
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFF;
+}
+.textCopete {
+	font-size: 11px;
+	color: #333;
+}
+.izqFino .contacto {
+	height: 50px;; /*ORIGINAL */
+/*	height: 200px; BANNER */
+	padding: 5px;
+	background-color: #E3E3E1;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align:center;
+}
+.izqFino .contacto img {
+	vertical-align:middle;
+}
+.izqFino .contacto p {
+	color: #9C9E9F;
+}
+.derAncho .productos {
+	margin: 0px;
+	border: none;
+}
+.derAncho .paises {
+	margin-top: 10px;
+	width:440px;
+	overflow:hidden;
+}
+.titCopete a {
+	color: #FFF;
+	text-decoration: none;
+}
+.izqFino .noticias .imgNota {
+	width: 80px;
+}
+.izqFino .noticias .nota {
+	margin: 0px;
+	padding: 0px;
+	text-align:left;
+	margin-top:5px;
+}
+.nota .imgNotaThumb {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 66px;
+	width: 100px;
+	display: inline;
+	vertical-align:bottom;
+	position:relative;
+}
+.izqFino .imgNotaThumb {
+	position:relative;
+	right: 0px;
+	width: 100px;
+	height: 68px;
+	overflow: hidden;
+}
+.thumbNota {
+	overflow:hidden;
+	width:80px;
+	height:68px;
+	position:absolute;
+	right:0px;
+	z-index:2;
+}
+.marcoNota {
+	position: absolute;
+	z-index: 5;
+	right: 0px;
+}
+.imgNotaThumb .lupaNota {
+	vertical-align: bottom;
+	margin: 0px;
+	float: left;
+	height: 18px;
+	width: 17px;
+	padding-top: 50px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}

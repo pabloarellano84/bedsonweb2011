@@ -1,0 +1,179 @@
+@charset "utf-8";
+body {
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	SCROLLBAR-FACE-COLOR:#999;
+	SCROLLBAR-HIGHLIGHT-COLOR: #E3E4E5;
+	SCROLLBAR-SHADOW-COLOR: #E3E4E5;
+	SCROLLBAR-3DLIGHT-COLOR: #E3E4E5;
+	SCROLLBAR-ARROW-COLOR: #FF9900;
+	SCROLLBAR-TRACK-COLOR: #E3E4E5;
+	SCROLLBAR-DARKSHADOW-COLOR:#E3E4E5;
+	border: none;
+}
+html {
+SCROLLBAR-FACE-COLOR:#E3E4E5; 
+SCROLLBAR-HIGHLIGHT-COLOR: #E3E4E5;
+SCROLLBAR-SHADOW-COLOR: #E3E4E5;
+SCROLLBAR-3DLIGHT-COLOR: #E3E4E5;
+SCROLLBAR-ARROW-COLOR: #FF9900; 
+SCROLLBAR-TRACK-COLOR: #E3E4E5; 
+SCROLLBAR-DARKSHADOW-COLOR:#E3E4E5;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+img {
+	border:none;
+	margin:0px;
+	padding:0px;
+	vertical-align: bottom;
+}
+.divTop {
+	margin-left:auto;
+	margin-right:auto;
+	width:812px;
+	overflow:hidden;
+	position:relative;
+	height:280px;
+}
+.bannerfla {
+	position:absolute;
+	z-index:1;
+	left:0px;
+}
+.botoneraMain {
+	position:absolute;
+	z-index:3;
+	left:0px;
+}
+.botoneraMain div {
+	display:inline;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+.botonesInt{
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0px;
+	margin-top:0px;
+	padding:0px;
+	width:810px;
+	overflow:hidden;
+	text-align:left;
+}
+.botonesInt .columna{
+	display:inline;
+	background-color:#F18E00;
+	text-align:left;
+}
+.botonesInt .columna img {
+	margin:0px;
+	padding:0px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #999;
+	border-left-color: #999;
+}
+.botonesInt .columna a{
+	margin:0px;
+	padding:0px;
+}
+.franjaNaranja {
+	background-color: #F90;
+	margin-bottom:0px;
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 0px;
+	height: 18px;
+	width: 811px;
+}
+.mainInfo {
+	width:811px;
+	margin:0px;
+	margin-bottom:10px;
+	padding:0px;
+}
+.titNota {
+	height:36px;
+	font-size: 15px;
+	font-weight:bold;
+	color: #F5F5F5;
+	background-image: url(../img/btnTit.png);
+	background-repeat: repeat-x;
+	text-align: left;
+	float: left;
+	padding-left:5px;
+	padding-top:8px;
+}
+.finTitNota {
+	text-align: left;
+	overflow:visible;
+}
+.footage {
+	width:811px;
+	margin:0px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0px;
+}
+.footage .botonerPie {
+	margin:0px;
+	padding:0px;
+	padding-bottom:5px;
+	font-size: 11px;
+	color:#7B7C7E;
+	text-align:center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #9C9D9E;
+	width:810px;
+}
+.footage .botonerPie li {
+	text-decoration:none;
+	display:inline;
+}
+.footage .botonerPie li a {
+	color:#7B7C7E;
+	text-decoration:none;
+}
+.footage .botonerPie a:hover {
+	color:#5B5B5B;
+	font-weight:bold;
+	text-decoration:none;
+}
+.footage .copyRight {
+	font-size: 11px;
+	text-align: left;
+	color:#7B7C7E;
+}
+.boton {
+	font-size: 11px;
+	font-weight: normal;
+	color: #333;
+	text-align: center;
+	margin: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height:25px;
+	width:90px;
+}
+.validar_borde {
+	border:#FF9933;
+	border:solid;
+	border:1px;
+	width:100%;
+}

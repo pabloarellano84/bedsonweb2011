@@ -1,0 +1,121 @@
+@charset "utf-8";
+body{
+	margin:0px;
+	padding:0px;
+}
+.izqFino {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 10px;
+	width: 340px;
+	height: 340px;
+	background-color: #E3E4E5;
+	text-align: left;
+	overflow: hidden;
+}
+.derAncho {
+	float: right;
+	width: 445px;
+	height: 340px;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 10px;
+	background-color: #E3E4E5;
+	text-align: left;
+}
+.fnd {
+	padding-top:10px;
+	width:810px;
+	background-color:#E3E4E5;
+	height:310px;
+	z-index:2;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.msj {
+	z-index:5;
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:810px;
+	height:310px;
+	padding-top:20px;
+}
+.titulos {
+	font-size: 12px;
+	color: #717375;
+	padding-top: 10px;
+	padding-left:10px;
+	margin: 0px;
+	width: 100%;
+}
+.titulos div {
+	height: 40px;
+	width:320px;
+	vertical-align: middle;
+	padding: 0px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.titulos div div {
+	width:100%;
+}
+.btnSubmit {
+	padding-left:20px;
+	width:100px;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+input, textarea, select {
+	background-color:#ECECEC;
+	border-left-color:#CACCCD;
+	border-bottom-color:#CACCCD;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	width:90%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#707173;
+}
+.mioption {
+	background-color:#F90;
+	color:#FFF;
+}
+#new_depto {
+	width:425px;
+	height:200px;
+	margin-right:10px;
+}
+#new_depto .opciones {
+	width:421px;
+	height:180px;
+	color:#707172;
+	border-left-color:#CACCCD;
+	border-bottom-color:#CACCCD;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#new_depto div {
+	margin:0px;
+	padding:0px;
+	padding-top:2px;
+	height:18px;
+	width:100%;
+	text-align:center;
+}
+.par {
+	background-color:#ECECEC;
+}
+.impar {
+	background-color:#DEDFE0;
+}
